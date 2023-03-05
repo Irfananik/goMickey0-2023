@@ -4,6 +4,9 @@
 .globalBgColor1{
     background-color:#453848;
 }
+.globalSectionMargin{
+    margin-top:150px;
+}
 .navShadow{
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -12,4 +15,19 @@
 }
 .bannderImageShadow{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+.rendomProductShadow{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.rendomProductsAnimation{
+    transition: transform 1.2s ease;
+}
+.rendomProductsAnimation:hover{
+    transform: scale(1.1);
+}
+.mickeyImgAnimation{
+    transition: transform 1.5s ease;
+}
+.mickeyImgAnimation:hover{
+    transform: rotate(360deg);
 }
