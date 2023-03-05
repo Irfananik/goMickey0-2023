@@ -31,3 +31,51 @@
 .mickeyImgAnimation:hover{
     transform: rotate(360deg);
 }
+.slideUpAnimation {
+    animation-name: slide-up;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide-up {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.slideLeft {
+    animation-name: slideleft;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideleft {
+    0% {
+        opacity: 0;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+.slideRight {
+    animation-name: slideright;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slideright {
+    0% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
