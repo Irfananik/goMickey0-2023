@@ -1,0 +1,15 @@
+.globalColor1{
+    color:#453848;
+}
+.globalBgColor1{
+    background-color:#453848;
+}
+.navShadow{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.logoShadow{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+.bannderImageShadow{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
