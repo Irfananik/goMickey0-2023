@@ -1,61 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- favicone link -->
-    <link rel="shortcut icon" href="images/goMickeyLogo.png" type="image/x-icon">
-    <!-- self styles -->
-    <link rel="stylesheet" href="styles/style.css">
-    <!-- font awesome link -->
-    <script src="https://kit.fontawesome.com/854625e3d8.js" crossorigin="anonymous"></script>
-    <title>goMickey</title>
-    <!-- bootstrap link -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicone link -->
+  <link rel="shortcut icon" href="images/goMickeyLogo.png" type="image/x-icon">
+  <!-- self styles -->
+  <link rel="stylesheet" href="styles/style.css">
+  <!-- font awesome link -->
+  <script src="https://kit.fontawesome.com/854625e3d8.js" crossorigin="anonymous"></script>
+  <title>goMickey</title>
+  <!-- bootstrap link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
 </head>
+
 <body>
-    <main>
-        <!-- nav bar start -->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary navShadow">
-            <div class="container">
-              <a class="navbar-brand" href="index.html"><img class="img-fluid rounded logoShadow" src="images/goMickeyLogo.png" alt="logo"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav fs-5">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="bags.html">Blog</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Products
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="bags.html">Bags</a></li>
-                      <li><a class="dropdown-item" href="watch.html">Watches</a></li>
-                      <li><a class="dropdown-item" href="glossary.html">Glossary</a></li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </nav>
-          <!-- nav end -->
-    </main>
-    
-    
-    <!-- bootstrap sript.js link -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  <main>
+    <!-- nav bar start -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary navShadow">
+      <div class="container">
+        <a class="navbar-brand" href="index.html"><img class="img-fluid rounded logoShadow"
+            src="images/goMickeyLogo.png" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav fs-5">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bags.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Products
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="bags.html">Bags</a></li>
+                <li><a class="dropdown-item" href="watch.html">Watches</a></li>
+                <li><a class="dropdown-item" href="glossary.html">Glossary</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- nav end -->
+
+    <!-- about section start-->
+    <div class="container globalSectionMargin d-flex justify-content-center ">
+      <!-- <h1 class="text-center my-5 globalColor1 slideLeft">About Us</h1> -->
+      <div class="card mb-3 w-75 rendomProductShadow rendomProductsAnimation">
+        <img src="images/aboutBanner.PNG" class="card-img-top img-fluid" alt="about banner">
+        <div class="card-body">
+          <h5 class="card-title globalColor1 slideRight">Here is we had tried to describe about our company.</h5>
+          <p class="card-text slideLeft">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus,
+            consequuntur
+            deserunt. Voluptatem fugit aperiam, repudiandae atque omnis aliquam numquam odio rerum eveniet aspernatur
+            impedit possimus placeat architecto! Nostrum voluptatum architecto earum repellendus distinctio cum eius
+            error quod eos eaque tenetur aliquam excepturi minima, nisi consectetur eveniet repudiandae doloribus
+            quaerat natus iusto recusandae. Voluptatibus illum facere, tempore dolor maiores dolorum molestiae itaque,
+            commodi enim et ut unde deserunt eum dicta praesentium error ullam quae in architecto, explicabo qui
+            dignissimos vel! Tempora hic fuga quam illum porro necessitatibus et ipsam velit reiciendis. Eveniet id
+            veniam architecto incidunt eos! Ipsum aliquam in dicta consequuntur magnam! Quaerat commodi ex consequatur
+            dicta rem voluptate laborum facilis in odio, deserunt, aut velit vitae nesciunt ipsam fuga hic a molestiae
+            nemo dolorum. Velit quisquam reprehenderit perferendis voluptatem dolores impedit consequuntur adipisci et,
+            vel aut hic rem facilis nostrum, deserunt, qui magni reiciendis modi doloribus accusamus dolor? Culpa hic
+            sit deleniti nulla reprehenderit quo ea a vero saepe illum quia incidunt assumenda eum consectetur rerum
+            possimus ducimus, ullam exercitationem eius aliquid accusantium doloribus doloremque soluta earum. Eos ad
+            consequatur, dolorum, quasi eaque voluptate quibusdam ut incidunt possimus facere aliquam quis, explicabo
+            perspiciatis repellendus facilis velit voluptatem unde dolorem est! Possimus aspernatur in dolore nesciunt
+            tempore eos quisquam, accusantium consequuntur voluptate nihil nulla, fugiat corrupti amet error. Doloremque
+            maiores a hic quasi, quis, consequatur voluptates obcaecati tempore unde, sit pariatur impedit eum dicta quo
+            et. Quaerat commodi magni iure aliquam cupiditate mollitia maxime ipsam, in esse ratione eius tenetur, quasi
+            illo quam consectetur provident ad? Repudiandae inventore necessitatibus, quidem omnis animi quibusdam unde
+            rem consequuntur odit eveniet nesciunt laboriosam illo consectetur amet deleniti odio dolorem possimus ipsa
+            expedita. Earum tempora corrupti praesentium minus, doloribus ut cupiditate ipsum numquam deserunt iusto
+            nobis quasi similique, harum asperiores placeat alias voluptate natus?
+            This content is a little bit longer.</p>
+          <p class="card-text slideRight"><small class="text-muted">-- @Mickey 2023</small></p>
+        </div>
+      </div>
+    </div>
+    <!-- about section end -->
+
+    <!-- footer start -->
+    <footer class="container-fluid bg-light globalSectionMargin">
+      <div class="container py-3">
+        <div class="row">
+          <div class="col-12 col-md-9">
+            <h4 class="text-muted globalColor1">Address</h4>
+            <span class="text-muted">
+              <p>Road 10, Block F, Bashundhara r/a, Dhaka 1212<br>Email:
+                morshedgolam@gmail.com<br>Contact Number: +880 1828546363</p>
+            </span>
+          </div>
+          <div class="col-12 col-md-3 d-flex align-items-center gap-4">
+            <a href="#"><i class="fs-3 globalColor1 rendomProductsAnimation fab fa-twitter"></i></a>
+            <a href="#"><i class="fs-3 globalColor1 rendomProductsAnimation fab fa-instagram"></i></a>
+            <a href="#"><i class="fs-3 globalColor1 rendomProductsAnimation fab fa-linkedin-in"></i></a>
+            <a href="#"><i class="fs-3 globalColor1 rendomProductsAnimation fab fa-facebook-f"></i></a>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-center mt-5">
+        <div class="col-12 col-md-12 ">
+          <small class="text-muted text-center">
+            <p>&copy; 2023 Example Company. All rights reserved Mickey-2023.</p>
+          </small>
+        </div>
+      </div>
+    </footer>
+    <!-- foter end -->
+  </main>
+
+
+  <!-- bootstrap sript.js link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
